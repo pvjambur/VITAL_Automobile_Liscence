@@ -1,6 +1,5 @@
 import streamlit as st
 import re
-# from PIL import Image
 import time as t
 import speech_recognition as sr
 
@@ -25,15 +24,18 @@ st.subheader("Enter vehicle info")
 
 vehicle_type = st.radio("Pick the type of the VEHICLE", ["SUV", "Sedan", "Pickup", "Hatchback","Others"])
 # vehicle_color = st.color_picker("Pick the color")
-vehicle_color=st.selectbox("Select a color:", ["Red", "Green", "Blue","beige","brown","gold","orange","pink","purple","tan","white","yellow"])
+vehicle_color=st.selectbox("Select a color:", ["Red", "Green", "Blue","Beige","Brown","Gold","Orange","Pink","Purple","Tan","White","Yellow"])
 
 data = f"Vehicle number is '{vehicle_number}', vehicle type is '{vehicle_type}' and color is '{vehicle_color}'"
 
-if st.button("Submit Vehicle Info", key="submit_vehicle_info"):
-    st.write(data)
+# if st.button("Submit Vehicle Info", key="submit_vehicle_info"):
+#     st.write(data)
 
 def inp():
     return data
+
+if st.button("Submit", key="submit"):
+    inp()
 
 st.title("Video Upload and Playback")
 
@@ -81,11 +83,5 @@ if st.sidebar.button("Start Recording", key="start_recording"):
 def inpu():
     return text
 
-if st.button("Submit", key="submit"):
-    inp()
-elif st.sidebar.button("Submit Now", key="submit_now"):
+if st.sidebar.button("Submit Now", key="submit_now"):
     inpu()
-
-st.write(prompt)
-
-# st.balloons()
