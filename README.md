@@ -153,3 +153,12 @@ As we can see, the model is'nt very accurate, however its depency on various par
 
 https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/cf3a6e09-4a52-47ab-af2f-f0140262a0fa
 
+
+### Annotated video: Final Ouput
+
+
+
+
+
+https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/551a5380-84cd-49aa-8a87-c5007483cc21
+
