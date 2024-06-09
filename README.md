@@ -75,10 +75,10 @@ VITAL stands as a robust and reliable solution, vital for modern surveillance an
 ## 1. *License Plate Recognition*
 
 ### Testing: Car with plate
-![testing](![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/7e4d451e-41c9-4103-b76a-f67462578147)
+![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/7e4d451e-41c9-4103-b76a-f67462578147)
 
 ### Results: Highlights the plate
-![result](![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/a47919e3-ada2-4cd2-be70-3f7d900b925e)
+![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/a47919e3-ada2-4cd2-be70-3f7d900b925e)
 
 
 ### **INCEPTION-RESNET-V2 TRAINING AND SAVE**
@@ -109,3 +109,36 @@ VITAL stands as a robust and reliable solution, vital for modern surveillance an
 6. **Deployment:**
    - Load the saved model for inference in various applications to ensure efficient and accurate predictions.
 
+## OPTICAL CHARACTER RECOGNITION - OCR
+
+### TESSERACT OCR
+
+![CRConvNet-the-Character-Recognition-Convolutional-Neural-Network-architecture](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/3c3ec8c5-4c09-498b-9c5b-599485ab22dd)
+
+
+Optical character recognition (OCR) software that is used to extract text from the image. Tesseract OCR have a python API and it is open source. Firstly, we will do installation of it. It pretty simple and depend on you OS. You can find manual and files to download for installation here.
+
+### OCR Input: Bounded box around plate
+
+![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/24d96005-6b5b-462a-b6b6-315528d7c1fe)
+
+#### Proccessing through OCR based formating
+
+![Car-Number-Plate-Detection-Using-MATLAB-and-Image-Processing](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/056ed0ec-60f0-4602-b266-2867a96c4750)
+
+### OCR Output: Return text recogninzed
+
+![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/9f4f31cc-1de0-4748-9c68-dbfcc58c6625)
+
+### Python based code: 
+
+```
+text = pt.image_to_string(roi)
+print(text)
+```
+### Ouput:
+
+```
+WOR SIBK
+```
+As we can see, the model is'nt very accurate, however its depency on various parameters whould be the most proabable cause of its low effeciency.
