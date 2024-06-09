@@ -142,3 +142,14 @@ print(text)
 WOR SIBK
 ```
 As we can see, the model is'nt very accurate, however its depency on various parameters whould be the most proabable cause of its low effeciency.
+
+# Final Output as a prompt
+
+## When the user provides the ideo file to us, we give them annotated video with the timesstamps as well
+
+### Original video
+
+
+
+https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/cf3a6e09-4a52-47ab-af2f-f0140262a0fa
+
