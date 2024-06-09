@@ -12,7 +12,7 @@ st.image("crime.jpeg", width=600)
 # st.balloons()
 
 st.sidebar.title("Welcome to crime detector")
-st.sidebar.info("Crime detection system help in finding current information about by taking vehicle details from user")
+st.sidebar.info("Crime detection system help in finding current information about vehicle by taking it's details from user")
 
 st.subheader("Enter vehicle number")
 
