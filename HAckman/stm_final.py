@@ -5,14 +5,14 @@ import speech_recognition as sr
 
 text = ''
 
-st.markdown("# Crime Detection")
+st.markdown("# Vehicle Identification and Tracking Automobile License [VITAL]")
 
-st.image("crime.jpeg", width=600)
+st.image("img.jpg", width=700)
 
 # st.balloons()
 
-st.sidebar.title("Welcome to crime detector")
-st.sidebar.info("Crime detection system help in finding current information about vehicle by taking it's details from user")
+st.sidebar.title("Welcome to VITAL")
+st.sidebar.info("VITAL system help in finding current information about vehicle by taking it's details from user")
 
 st.subheader("Enter vehicle number")
 
@@ -52,8 +52,6 @@ if uploaded_file is not None:
 st.markdown("# OUTPUT")
 
 prompt = st.text_area("Describe more about vehicle")
-
-
 
 with st.spinner("Just a moment..."):
     t.sleep(2)
