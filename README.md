@@ -74,6 +74,11 @@ VITAL stands as a robust and reliable solution, vital for modern surveillance an
 
 ## 1. *License Plate Recognition*
 
+### Testing: Car with plate
+![testing](![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/7e4d451e-41c9-4103-b76a-f67462578147)
+
+### Results: Highlights the plate
+![result](![image](https://github.com/pvjambur/VITAL_Automobile_Liscence/assets/145439975/a47919e3-ada2-4cd2-be70-3f7d900b925e)
 
 
 ### **INCEPTION-RESNET-V2 TRAINING AND SAVE**
