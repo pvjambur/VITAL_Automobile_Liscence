@@ -70,4 +70,37 @@ In the above code, we individually take each file and parse into xml.etree and f
 
 VITAL stands as a robust and reliable solution, vital for modern surveillance and security operations. It not only addresses current security challenges but also paves the way for future innovations and broader applications.
 
+# Model wise evaluation and procedure
+
+## 1. *License Plate Recognition*
+
+
+
+### **INCEPTION-RESNET-V2 TRAINING AND SAVE**
+
+#### *Training and Saving an Inception-ResNet-v2 Model*
+
+1. **Data Collection and Preprocessing:**
+   - Collect a large and diverse dataset.
+   - Normalize and augment the data.
+   - Split the data into training, validation, and test sets.
+
+2. **Model Initialization:**
+   - Initialize the Inception-ResNet-v2 architecture.
+   - Optionally use pre-trained weights to leverage transfer learning.
+
+3. **Training:**
+   - Train the model using a powerful GPU.
+   - Employ techniques like learning rate scheduling, data augmentation, and batch normalization.
+   - Continuously monitor the model's performance using validation data.
+   - Fine-tune hyperparameters to achieve the best results.
+
+4. **Evaluation:**
+   - Assess the model's performance on the test set to ensure it meets the desired metrics.
+
+5. **Saving the Model:**
+   - Save the trained model in a suitable format (e.g., TensorFlow SavedModel or HDF5).
+
+6. **Deployment:**
+   - Load the saved model for inference in various applications to ensure efficient and accurate predictions.
 
